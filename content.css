@@ -18,6 +18,7 @@
 }
 .font-fam{
     font-family:cursive;
+    font-size: 5em;
 
 }
 
@@ -57,7 +58,8 @@
         margin: .5em;
     }
     .font-fam{
-        font-family: Bitter;
+        font-family: Barlow;
+        font-size: 3.5em;
     }
 
     .cursive {
