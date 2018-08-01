@@ -20,6 +20,9 @@
     font-family:cursive;
 
 }
+.hello{
+    font-size: 3em;
+}
 
 .cursive {
     background-color: #fff;
@@ -65,6 +68,9 @@
         margin: 0;
         text-align: center;
         margin-top:2em;
+    }
+    .hello{
+        font-size: 1.5em;
     }
 
 }
