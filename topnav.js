@@ -22,7 +22,7 @@
                   function callaboutme(){
                         document.getElementById("demo").innerHTML=" <div style=font-family: cursive >About Me <br><br>"+
                        " I believe that when your work is related to your interests results can be outstanding and everyone in happy , for me "+
-                     " my work is more important then the assests re+lated to it."+
+                     " my work is more important then the assests related to it."+
                        " <div style=text-indent: 1em>computer science is a vast field and yet i chose web development because i think this "+
                        "field has the power to provide solutions to the "+
                         "much awaited problems of the world.Actually apart from the above stated fact i really enjoy my work developing websites both static and dynamic."+ 
