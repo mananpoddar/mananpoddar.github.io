@@ -1,0 +1,145 @@
+.main_content {
+  background-color: whitesmoke;
+  padding: 50px;
+  font-size: 1.7em;
+}
+.header {
+  background-color: #1c1c1d;
+  padding: 1em;
+  text-align: left;
+
+  color: white;
+  height: 10em;
+}
+.font {
+  margin: 1em;
+}
+.font-fam {
+  font-family: Barlow;
+  font-size: 5em;
+}
+
+.cursive {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  height: 15em;
+  margin: 0;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.hello {
+  font-size: 3em;
+}
+.hello1 {
+  font-size: 5em;
+  background-color: #fff;
+  color: #636b6f;
+  margin-top: 1em;
+  height: 2em;
+  font-family: "Raleway", sans-serif;
+  margin-left: 10em;
+}
+
+.project {
+  font-size: 5em;
+
+  padding: 1em;
+  border-color: white;
+  border-width: 5em;
+}
+a {
+  color: black;
+}
+
+a:link {
+  border-color: white;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #3a3a3d;
+}
+
+.projectHeading {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  height: 5em;
+  margin: 0;
+  text-align: center;
+  margin-top: 2em;
+}
+.intern {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    height: 2em;
+    text-align: center;
+    margin-top: 2em;
+  }
+  
+
+.pcontent{
+    font-size: 1.5em;
+    color: black;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 722px) {
+  .main_content {
+    background-color: whitesmoke;
+    padding: 50px;
+    font-size: 1em;
+  }
+  .header {
+    background-color: #1c1c1d;
+    padding: 4em;
+    text-align: left;
+
+    color: white;
+    height: 17em;
+  }
+  .font {
+    margin: 0.5em;
+  }
+  .font-fam {
+    font-family: Barlow;
+    font-size: 5em;
+  }
+
+  .cursive {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    height: 20em;
+    margin: 0;
+    text-align: center;
+    margin-top: 2em;
+  }
+  .hello {
+    font-size: 1.5em;
+  }
+  .hello1 {
+    font-size: 2.5 em;
+    background-color: #fff;
+    color: #636b6f;
+    margin-top: 1em;
+    height: 2em;
+    font-family: "Raleway", sans-serif;
+    margin-left: 1em;
+  }
+  
+  .project {
+    font-size: 2em;
+  
+    padding: 1em;
+    border-color: white;
+    border-width: 5em;
+  }
+}
