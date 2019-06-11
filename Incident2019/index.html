@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <title>Incident 2019</title>
   <meta name="description" content="Incident is the annual cultural festival of the National Institute of Technology Karnataka (NITK), Surathkal. Incident has grown into the second largest cultural festival in South India, attracting a footfall of over 40,000 from 200 colleges across the country">
-
-  <base href="./">
+  <base href="/Incident2019/index.html/">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="prPXZ7o1C575SPwtPXkA0kaiegMpbVZoIcrYzm-qUwI" />
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -27,8 +27,22 @@
       "logo": "https://incident.nitk.ac.in/assets/images/inci_logo.png"
     }
   </script>
+  <!-- Github Pages hack to allow SPA refresh without receiving 404. -->
+  <script>
+    (function () {
+      // Retrieve the URL the user was trying to access when receiving the 404.
+      var redirect = sessionStorage.redirect;
+      // Remove the URL from sessionStorage.
+      delete sessionStorage.redirect;
+      // Check if we actually need to redirect.
+      if (redirect && redirect != location.href) {
+        // We need to redirect to the URL the user was trying to access.
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
 </head>
-<body>adsf
+<body>
   <app-root></app-root>
 <script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="scripts.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
 </html>
